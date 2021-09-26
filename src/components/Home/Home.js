@@ -51,6 +51,20 @@ function Home () {
         ]);
     }, []);
 
+    function handleClick(number) {
+        fetch('/api/messages', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                to: number,
+                body: 'people who back into parking lots like what do you have to prove'
+              })
+          })
+        .then(message => console.log(message));
+    }
+    // handleClick()
     return (
         <div className="home">
             <div className="left_panel">
