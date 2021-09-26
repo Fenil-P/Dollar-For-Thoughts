@@ -2,11 +2,11 @@
     margin-left: 200px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #a400cdbd;
+    background-color: #6100a1;
 }
 
 .thoughts .container {
-    background-color: #00CD99;
+    background-color: #6100a1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 1.5fr;

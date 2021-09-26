@@ -35,7 +35,7 @@ Link.logo {
 }
 
 img {
-    height: 100px;
+    height: 120px;
     object-fit: contain;
 }
 
@@ -69,19 +69,23 @@ ul a {
 
 ul a:hover {
     font-weight: bold;
-    transition: 0.1s ease-in-out;
 }
 
 .active {
     font-weight: bold;
 }
 
-.container .btn button {
-    border: none;
-    font-size: 1.2em;
-    border-radius: 7px;
-    margin: 0 5px;
+.contaner .btn {
+    background-color: white;
 }
+
+.container .btn button {
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+
 
 .container .btn button.deposit
 {
@@ -90,6 +94,13 @@ ul a:hover {
     color: white;
 }
 
-.container .btn button.sign-out {
-    background-color: white;
+.container .btn button.deposit:hover
+{
+    background: linear-gradient(180deg, #00a77d 0%, #20aa6a 100%);
+    cursor: pointer;
+}
+
+.container .btn button.sign-out:hover {
+    background: linear-gradient(180deg, #a0a0a0 0%, #a1a1a1 100%);
+    cursor: pointer;
 }

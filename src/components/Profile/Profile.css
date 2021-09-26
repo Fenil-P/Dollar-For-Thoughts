@@ -1,32 +1,25 @@
 .profile{
-    background-color: #C2F9D3;
-    height: auto;
-    padding: 0 24px;
-    margin-left: 200px;
-    position:relative;
-}
-
-.profile img.swirl {
-    z-index: 0;
-    width: 100%;
+    background-color: #6100a1;
+    color: white;
     height: 100%;
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    overflow: hidden;
-    object-fit: contain;
+    padding: 0 20px;
+    margin: 9px;
+    margin-left: 200px;
+    position: relative;
 }
 
 .profile h1 {
+
     font-size: 3em;
     text-align: left;
     max-width: 500px;
-    color: #000000C7;
+    color: #1d0130;
     padding: 20px 50px;
     position: relative;
 }
 
 .profile_container {
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -40,6 +33,7 @@
 .profile_container .deposit h1,
 .profile_container .withdraw h1
 {
+
     font-size: 20px;
     color: #00CD99;
     text-transform: uppercase;
