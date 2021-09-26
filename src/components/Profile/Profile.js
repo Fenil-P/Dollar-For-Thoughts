@@ -7,13 +7,13 @@ import swirl from '../swirl.svg';
 class Profile extends React.Component {
   render() {
     return (
-      <div className="profile" style={{ height: '100%' }}>
-        <h1 style={{ color: '#00CD99' }}>It's the thought that counts...</h1>
+      <div className="profile">
+        <h1>It's the thought that counts...</h1>
         <div className="profile_container">
           <div className="deposit">
             <h1>Deposits</h1>
             <p>
-              You have deposited <b>321</b> thoughts. Keep up the great work!
+              You have deposited <b>123</b> thoughts. Keep up the great work!
             </p>
           </div>
           <img src={lady} alt="lady"></img>

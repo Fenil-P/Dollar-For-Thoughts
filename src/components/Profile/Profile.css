@@ -1,25 +1,21 @@
 .profile{
-    background-color: #6100a1;
-    color: white;
-    height: 100%;
-    padding: 0 20px;
-    margin: 9px;
+    background-color: #00CD99;
+    height: auto;
+    padding: 0 24px;
     margin-left: 200px;
-    position: relative;
+    position:relative;
 }
 
 .profile h1 {
-
     font-size: 3em;
     text-align: left;
     max-width: 500px;
-    color: #1d0130;
+    color: white;
     padding: 20px 50px;
     position: relative;
 }
 
 .profile_container {
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -28,14 +24,14 @@
     justify-content: center;
     padding: 0 50px;
     position: relative;
+    color: white;
 }
 
 .profile_container .deposit h1,
 .profile_container .withdraw h1
 {
-
     font-size: 20px;
-    color: #00CD99;
+    color: #C2F9D3;
     text-transform: uppercase;
     padding: 0 34px;
 }
@@ -49,7 +45,7 @@
 }
 
 .profile_container b {
-    color: #00CD99;
+    color: #C2F9D3;
 }
 
 .profile_container img {

@@ -18,9 +18,7 @@ class Header extends React.Component {
         return (
           <nav className="header">
             <div className="container">
-              <Link className="logo" to="/">
-                <img src={logo} alt="logo" />
-              </Link>
+              <h1>Dollars</h1>
               <ul>
                 <li>
                   <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">

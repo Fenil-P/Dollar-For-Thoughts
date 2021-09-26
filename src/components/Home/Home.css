@@ -4,11 +4,29 @@
     gap: 3em;
     padding: 0 24px;
     height: 100%;
-    background-color: #6100a1;
+    background-color: #00CD99;
     justify-content: center;
     align-items: center;
     place-items: stretch;
     margin-left: 200px;
+}
+
+#number-inp {
+    border:none;
+    margin-right: 10px;
+}
+
+#submit-btn {
+    font-weight: bold;
+    background: linear-gradient(180deg, #00CD99 0%, #32EE97 100%);
+    color: white;
+    border: none;
+}
+
+#submit-btn:hover {
+    background: linear-gradient(180deg, #00a77d 0%, #20aa6a 100%);
+    cursor: pointer;
+    border: none;
 }
 
 .left_panel {

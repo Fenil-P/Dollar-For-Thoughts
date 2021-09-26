@@ -1,10 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const pino = require('express-pino-logger')();
-const client = require('twilio')(
-  'ACcfec5c7ea62201495cc5a5f8e83595a7',
-  '4d764af75cac37a2cbc1b4c52d3bd6cd'
-);
+const client = require('twilio')('ACcfec5c7ea62201495cc5a5f8e83595a7', 'b47d5f61a6c15d23a2793b5dd506b5b5');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -23,17 +20,15 @@ app.post('/api/messages', (req, res) => {
     .create({
       from: '+19107221053',
       to: req.body.to,
-      body: req.body.body
-    })  
+      body: req.body.body,
+    })
     .then(() => {
       res.send(JSON.stringify({ success: true }));
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.send(JSON.stringify({ success: false }));
     });
 });
 
-app.listen(3001, () =>
-  console.log('Express server is running on localhost:3001')
-);
+app.listen(3001, () => console.log('Express server is running on localhost:3001'));
