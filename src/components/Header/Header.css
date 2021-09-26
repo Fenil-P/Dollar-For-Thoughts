@@ -35,7 +35,7 @@ Link.logo {
 }
 
 img {
-    height: 50px;
+    height: 120px;
     object-fit: contain;
 }
 
@@ -69,29 +69,38 @@ ul a {
 
 ul a:hover {
     font-weight: bold;
-    transition: 0.1s ease-in-out;
 }
 
 .active {
     font-weight: bold;
 }
 
-.container .btn button {
-    border: none;
-    font-size: 1.2em;
-    border-radius: 7px;
-    margin: 0 5px;
+.contaner .btn {
+    background-color: white;
 }
+
+.container .btn button {
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+
 
 .container .btn button.deposit
 {
     font-weight: bold;
-    padding: 10px 40px;
     background: linear-gradient(180deg, #00CD99 0%, #32EE97 100%);
     color: white;
 }
 
-.container .btn button.sign-out {
-    padding: 10px 30px;
-    background-color: white;
+.container .btn button.deposit:hover
+{
+    background: linear-gradient(180deg, #00a77d 0%, #20aa6a 100%);
+    cursor: pointer;
+}
+
+.container .btn button.sign-out:hover {
+    background: linear-gradient(180deg, #a0a0a0 0%, #a1a1a1 100%);
+    cursor: pointer;
 }

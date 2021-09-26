@@ -10,91 +10,91 @@ function Thoughts () {
         setThoughts([
             {
                 thought: 'people who back into parking lots like what do you have to prove',
-                saves: 428
+                saves: 128
             },
             {
                 thought: 'true love is when your pets know you’re sad and come cuddle with you',
-                saves: 428
+                saves: 312
             },
             {
                 thought: 'sometimes i sleep all day and still be sleepy',
-                saves: 428
+                saves: 64
             },
             {
                 thought: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies accumsan dui quis rutrum. Duis aliquam elit eget consequat volutpat. Fusce dolor tellus, fermentum in efficitur id, ultricies nec felis. Phasellus feugiat commodo rutrum. Sed tellus ligula, tristique at lorem.',
-                saves: 428
+                saves: 98
             },
             {
                 thought: 'pineapple on pizza slander will not be tolerated in this house',
-                saves: 428
+                saves: 8
             },
             {
                 thought: 'oct-dec is the best time of the year',
-                saves: 428
+                saves: 3
             },
             {
                 thought: 'being a sleepy person with a busy life is so hard',
-                saves: 428
+                saves: 4
             },
             {
                 thought: 'do you ever just sit with your laptop open but u just use ur phone',
-                saves: 428
+                saves: 1
             },
             {
                 thought: 'grind now so that your dogs can have the background they deserve',
-                saves: 428
+                saves: 28
             },
             {
                 thought: 'first they’ll give your butterflies then mental trauma',
-                saves: 428
+                saves: 32
             },
             {
                 thought: 'money been buying my happiness so y’all definitely lied',
-                saves: 428
+                saves: 68
             },
             {
                 thought: 'people who back into parking lots like what do you have to prove',
-                saves: 428
+                saves: 0
             },
             {
                 thought: 'true love is when your pets know you’re sad and come cuddle with you',
-                saves: 428
+                saves: 5
             },
             {
                 thought: 'sometimes i sleep all day and still be sleepy',
-                saves: 428
+                saves: 6
             },
             {
                 thought: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies accumsan dui quis rutrum. Duis aliquam elit eget consequat volutpat. Fusce dolor tellus, fermentum in efficitur id, ultricies nec felis. Phasellus feugiat commodo rutrum. Sed tellus ligula, tristique at lorem.',
-                saves: 428
+                saves: 11
             },
             {
                 thought: 'pineapple on pizza slander will not be tolerated in this house',
-                saves: 428
+                saves: 89
             },
             {
                 thought: 'oct-dec is the best time of the year',
-                saves: 428
+                saves: 105
             },
             {
                 thought: 'being a sleepy person with a busy life is so hard',
-                saves: 428
+                saves: 418
             },
             {
                 thought: 'do you ever just sit with your laptop open but u just use ur phone',
-                saves: 428
+                saves: 49
             },
             {
                 thought: 'grind now so that your dogs can have the background they deserve',
-                saves: 428
+                saves: 28
             },
             {
                 thought: 'first they’ll give your butterflies then mental trauma',
-                saves: 428
+                saves: 0
             },
             {
                 thought: 'money been buying my happiness so y’all definitely lied',
-                saves: 428
+                saves: 4
             }
         ]);
     }, []);
