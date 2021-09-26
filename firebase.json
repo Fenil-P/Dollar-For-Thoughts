@@ -1,12 +1,7 @@
 {
-    "hosting": {
-      "site": "penny-tech",
-      "public": "public",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
-    }
+  "hosting": {
+    "site": "Dollar-tech",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
-  
+}

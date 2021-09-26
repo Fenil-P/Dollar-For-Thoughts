@@ -1,10 +1,12 @@
 .thoughts {
     margin-left: 200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #a400cdbd;
 }
 
 .thoughts .container {
+    background-color: #00CD99;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 1.5fr;

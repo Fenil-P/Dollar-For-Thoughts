@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import "./Header.css";
 import DepositThought from '../DepositThought/DepositThought';
-import logo from '../logo.svg';
+import logo from '../logo.png'
 
 class Header extends React.Component { 
     
