@@ -1,6 +1,31 @@
-# Dollar for your thoughts?
-
+# Backward Hacks 2 Winner: Dollar for thoughts
 A social media platform where anonymous users make transactions using thoughts.
+
+### Devpost : https://devpost.com/software/dollar-for-thoughts
+
+<br />
+
+## DEMO
+
+Home Page
+![](demo/d1.png)
+
+The Thought Bank
+![](demo/d2.png)
+
+Profile 
+![](demo/d3.png)
+
+Add a new thought
+![](demo/d4.png)
+
+Login
+![](demo/d5.png)
+
+Register
+![](demo/d6.png)
+
+
 
 ## Inspiration
 
